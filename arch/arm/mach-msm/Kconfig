@@ -1341,6 +1341,12 @@ config CPU_VOLTAGE_TABLE
 	bool "Enable CPU Voltage Table via sysfs for adjustements"
 	default n
 
+config GPU_OVERCLOCK
+	bool "allow GPU overclock"
+	default n
+	help
+	  Allow GPU overclocking
+
 if CPU_FREQ_MSM
 
 config MSM_CPU_FREQ_SET_MIN_MAX
