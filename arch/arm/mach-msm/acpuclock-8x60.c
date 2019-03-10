@@ -48,7 +48,7 @@
 
 #define MAX_VDD_SC		1500000 /* uV */
 #define MIN_VDD_SC		 775000 /* uV */
-#define MAX_VDD_MEM		1325000 /* uV */
+#define MAX_VDD_MEM		1500000 /* uV */
 #define MAX_VDD_DIG		1200000 /* uV */
 #define MAX_AXI			 310500 /* KHz */
 #define SCPLL_LOW_VDD_FMAX	 594000 /* KHz */
